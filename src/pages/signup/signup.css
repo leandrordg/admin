@@ -1,0 +1,78 @@
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("http://blog.forlabexpress.com.br/wp-content/uploads/2017/04/fundo-poligono-clean.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.signupWrapper {
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  min-width: 600px;
+  background-color: var(--title-color);
+  border-radius: 5px;
+}
+
+.signupForm,
+.signupInputField {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupTitleItens {
+  margin-bottom: 10px;
+}
+
+.signupSubTitle {
+  color: gray;
+}
+
+.signupInputField {
+  margin: 10px 0;
+  position: relative;
+}
+
+.signupInputField > label {
+  font-size: 16px;
+  color: gray;
+  margin-top: 20px;
+}
+
+.signupInputField > input {
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+}
+
+.signupIcon {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+}
+
+.signupLink,
+.signupLinkLogin {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.signupLink > strong {
+  color: var(--primary-color);
+}
+
+.signupButton {
+  font-size: 16px;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: var(--title-color);
+  background-color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
